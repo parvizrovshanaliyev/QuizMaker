@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Quizmaker_Test3_CreateQuizModelStoreContainer" CdmEntityContainer="Quizmaker_Test3_CreateQuizEntities1">
+    <EntitySetMapping Name="Logs">
+      <EntityTypeMapping TypeName="Quizmaker_Test3_CreateQuizModel.Log">
+        <MappingFragment StoreEntitySet="Log">
+          <ScalarProperty Name="LogId" ColumnName="LogId" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Log_IN" ColumnName="Log_IN" />
+          <ScalarProperty Name="Log_OUT" ColumnName="Log_OUT" />
+          <ScalarProperty Name="LogStatus" ColumnName="LogStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="Quizmaker_Test3_CreateQuizModel.Question">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="QuestionTitle" ColumnName="QuestionTitle" />
+          <ScalarProperty Name="Q_A" ColumnName="Q_A" />
+          <ScalarProperty Name="Q_B" ColumnName="Q_B" />
+          <ScalarProperty Name="Q_C" ColumnName="Q_C" />
+          <ScalarProperty Name="Q_D" ColumnName="Q_D" />
+          <ScalarProperty Name="Q_CorrectAnswer" ColumnName="Q_CorrectAnswer" />
+          <ScalarProperty Name="QuizId" ColumnName="QuizId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Quizs">
+      <EntityTypeMapping TypeName="Quizmaker_Test3_CreateQuizModel.Quiz">
+        <MappingFragment StoreEntitySet="Quizs">
+          <ScalarProperty Name="QuizId" ColumnName="QuizId" />
+          <ScalarProperty Name="QuizName" ColumnName="QuizName" />
+          <ScalarProperty Name="QuizTotalScore" ColumnName="QuizTotalScore" />
+          <ScalarProperty Name="QuizMaxScore" ColumnName="QuizMaxScore" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="OrganiserId" ColumnName="OrganiserId" />
+          <ScalarProperty Name="CreateDateTime" ColumnName="CreateDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Types">
+      <EntityTypeMapping TypeName="Quizmaker_Test3_CreateQuizModel.User_Types">
+        <MappingFragment StoreEntitySet="User_Types">
+          <ScalarProperty Name="UserType_Id" ColumnName="UserType_Id" />
+          <ScalarProperty Name="UserType_Name" ColumnName="UserType_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Quizmaker_Test3_CreateQuizModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserFullName" ColumnName="UserFullName" />
+          <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserType_Id" ColumnName="UserType_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

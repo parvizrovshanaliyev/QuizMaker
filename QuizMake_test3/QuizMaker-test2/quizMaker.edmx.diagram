@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="271eab2b459144cb829020957863249b" Name="Diagram1">
+        <EntityTypeShape EntityType="Quizmaker_Test3_CreateQuizModel.Log" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quizmaker_Test3_CreateQuizModel.Question" Width="1.5" PointX="7.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quizmaker_Test3_CreateQuizModel.Quiz" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quizmaker_Test3_CreateQuizModel.User_Types" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quizmaker_Test3_CreateQuizModel.User" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="Quizmaker_Test3_CreateQuizModel.FK__Log__User_Id__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="Quizmaker_Test3_CreateQuizModel.FK__Questions__QuizI__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="Quizmaker_Test3_CreateQuizModel.FK__Quizs__Organiser__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="Quizmaker_Test3_CreateQuizModel.FK__Quizs__User_Id__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="Quizmaker_Test3_CreateQuizModel.const01" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
